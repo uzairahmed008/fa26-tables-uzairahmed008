@@ -1,7 +1,10 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #1e293b;
-  /* Dark stormy blue */
+  background-image: url('storm.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: #f8fafc;
   margin: 0;
   padding: 20px;
@@ -10,7 +13,8 @@ body {
 }
 
 .weather-container {
-  background-color: #334155;
+  background-color: rgba(51, 65, 85, 0.95);
+  /* Slight transparency so the background image peeks through */
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
